@@ -1,5 +1,3 @@
-*
-!*.*
-!README
 *.o
+st
 config.h
