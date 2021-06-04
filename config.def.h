@@ -5,7 +5,13 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "mono:pixelsize=15:antialias=true:autohint=true";
+static char *font = "DejaVu Sans Mono:style=Book:pixelsize=15";
+/* Spare fonts */
+static char *font2[] = {
+    "Font Awesome 5 Free Solid:size:pixelsize=15:antialias=true:autohint=true"
+};
+
+
 static int borderpx = 2;
 
 /*
